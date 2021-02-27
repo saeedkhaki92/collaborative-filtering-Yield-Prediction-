@@ -30,6 +30,10 @@ Please install the following packages in Python3:
 through annual Syngenta Crop Challenge. During the challenge, September 2019 to January 2020, the data was open to
 the public. Researchers who wish to access the data can send their request to Syngenta through <a href="https://www.ideaconnection.com/syngenta-crop-challenge/contact.php" target="_blank">this website</a>.
 
+## Notice
+
+### We have recently published a new paper titled <a href="https://arxiv.org/abs/1911.09045" target="_blank">"A CNN-RNN Framework for Crop Yield Prediction"</a> published in <a href="https://www.frontiersin.org/articles/10.3389/fpls.2019.01750/abstract" target="_blank"> Frontiers in Plant Science Journal</a>. This paper predicts corn and soybean yields based on weather, soil and management practices data. Researchers can use the data from this paper using following <a href="https://github.com/saeedkhaki92/CNN-RNN-Yield-Prediction" target="_blank"> link</a>. We spend a lot of time gathering and cleaning the data from different publicly available sources. Please cite our papers if you use our data or codes. Thanks.
+
 ## Dimension of Input Data
 
 - X_inbred : one-hot matrix of inbred ID with the dimension of `m-by-nb`, where `m` is the number of observations and `nb` is the number of inbreds.
